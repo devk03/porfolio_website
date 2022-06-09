@@ -51,7 +51,24 @@ button{
 
 }
 footer{
-    background-color: #757575;
     display:flex;
     align-items: center;
+    display: flex; 
+    justify-content: center;
+}
+#contact-link{
+    font-size:2em;
+    font-weight:bold;
+    background-color:black;
+    border-radius: 25px;
+    padding: 0.5em 1em 0.5em 1em;
+    transition-duration: 500ms;
+}
+#contact-link:hover{
+    padding: 0.6em 1em 0.6em 1em;
+    font-size:2.3em;
+    transition-duration: 500ms;
+}
+body{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,255,255,0.40242034313725494) 100%);
 }
