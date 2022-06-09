@@ -1,0 +1,57 @@
+#who_is {
+    color:blue;
+    font-size: 6em;
+    transition: 1.5s;
+    text-decoration: none;
+}
+#who_is:hover{
+    color:black;
+    text-decoration: none;
+    font-size: 8em;
+    transition: 1.5s;
+}
+.index_content{
+    font-size: 1em;
+    transition: 1.5s;
+}
+.index_content:hover{
+    font-size: 1.8em;
+}
+#michigan{
+    transition: 2s;
+}
+#michigan:hover{
+    color:yellow;
+    background-color: blue;
+    transition: 2s;
+    font-weight: 600;
+}
+#magna{
+    transition: 2s;
+}
+#magna:hover{
+    background-color: black;
+    color:red;
+    transition: 2s;
+    font-weight: 600;
+}
+.delay{
+    transition:0.6s;
+}
+.contact{
+    justify-content: center;
+}
+#index_image{
+    width:10em;
+    height:17em;
+    padding-bottom: 1em;
+}
+button{
+    border:none;
+
+}
+footer{
+    background-color: #757575;
+    display:flex;
+    align-items: center;
+}
