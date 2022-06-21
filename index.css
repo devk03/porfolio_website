@@ -1,13 +1,13 @@
 #who_is {
     color:blue;
-    font-size: 6em;
+    font-size: 4.5em;
     transition: 1.5s;
     text-decoration: none;
 }
 #who_is:hover{
     color:black;
     text-decoration: none;
-    font-size: 8em;
+    font-size: 5em;
     transition: 1.5s;
 }
 .index_content{
@@ -71,4 +71,37 @@ footer{
 }
 body{
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,255,255,0.40242034313725494) 100%);
+}
+@media (max-width:320px){
+    #who_is{
+        font-size: 3em;
+    }
+    #who_is:hover{
+        color:black;
+        text-decoration: none;
+        font-size: 4em;
+        transition: 1.5s;
+    }
+}
+@media (max-width:390px){
+    #who_is{
+        font-size: 3.5em;
+    }
+    #who_is:hover{
+        color:black;
+        text-decoration: none;
+        font-size: 4.5em;
+        transition: 1.5s;
+    }
+}
+@media (max-width:414px){
+    #who_is{
+        font-size: 4em;
+    }
+    #who_is:hover{
+        color:black;
+        text-decoration: none;
+        font-size: 4.5em;
+        transition: 1.5s;
+    }
 }
