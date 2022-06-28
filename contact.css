@@ -1,115 +1,119 @@
-#linked{
-    color:#0A66C2;
+#linked {
+  color: #0a66c2;
 }
-#in{
-    background-color:#0A66C2;
-    color:white;
-    border-radius:10%;
-    text-align:center;
-    padding: 1px 10px 1px 10px;
+#in {
+  background-color: #0a66c2;
+  color: white;
+  border-radius: 10%;
+  text-align: center;
+  padding: 1px 10px 1px 10px;
 }
-.linkedin{
-    font-size:8em;
-    text-align:center;
-    justify-content:center;
-    text-decoration: none !important;
-    transition:2s;
-    margin: 0 auto;
+.linkedin {
+  font-size: 8em;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none !important;
+  transition: 2s;
+  margin: 0 auto;
 }
-.linkedin:hover{
-    font-size:10em;
+.linkedin:hover {
+  font-size: 10em;
 }
-.email{
-    font-size:6em;
-    text-align:center;
-    justify-content:center;
-    transition:2s;
-    margin: 0 auto;
+.email {
+  font-size: 6em;
+  text-align: center;
+  justify-content: center;
+  transition: 2s;
+  margin: 0 auto;
 }
-.email:hover{
-    font-size:7em;
+.email:hover {
+  font-size: 7em;
 }
-.filler{
-    height:300px; 
-    width:100%; 
-    clear:both;
+.filler {
+  height: 300px;
+  width: 100%;
+  clear: both;
 }
-body{
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,255,255,0.40242034313725494) 100%);
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(255, 255, 255, 0.40242034313725494) 100%
+  );
+  text-align: center;
+}
+@media (max-width: 376px) {
+  .filler {
+    height: 300px;
+    width: 100%;
+    clear: both;
+  }
+  .email {
+    font-size: 2em;
     text-align: center;
+    justify-content: center;
+    transition: 2s;
+    margin: 0 auto;
+  }
+  .email:hover {
+    font-size: 4em;
+  }
+  .linkedin {
+    font-size: 4.6em;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none !important;
+    transition: 2s;
+    margin: 0 auto;
+  }
 }
-@media (max-width:376px){
-    .filler{
-        height:300px; 
-        width:100%; 
-        clear:both;
-    }
-    .email{
-        font-size:2em;
-        text-align:center;
-        justify-content:center;
-        transition:2s;
-        margin: 0 auto;
-    }
-    .email:hover{
-        font-size:4em;
-    }
-    .linkedin{
-        font-size:4.6em;
-        text-align:center;
-        justify-content:center;
-        text-decoration: none !important;
-        transition:2s;
-        margin: 0 auto;
-    }
+@media (max-width: 391px) {
+  .filler {
+    height: 500px;
+    width: 100%;
+    clear: both;
+  }
+  .email {
+    font-size: 2.8em;
+    text-align: center;
+    justify-content: center;
+    transition: 2s;
+    margin: 0 auto;
+  }
+  .email:hover {
+    font-size: 2em;
+  }
+  .linkedin {
+    font-size: 4.8em;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none !important;
+    transition: 2s;
+    margin: 0 auto;
+  }
 }
-@media (max-width:391px){
-    .filler{
-        height:500px; 
-        width:100%; 
-        clear:both;
-    }
-    .email{
-        font-size:2.8em;
-        text-align:center;
-        justify-content:center;
-        transition:2s;
-        margin: 0 auto;
-    }
-    .email:hover{
-        font-size:2em;
-    }
-    .linkedin{
-        font-size:4.8em;
-        text-align:center;
-        justify-content:center;
-        text-decoration: none !important;
-        transition:2s;
-        margin: 0 auto;
-    }
-}
-@media (max-width:415px){
-    .filler{
-        height:1080px; 
-        width:100%; 
-        clear:both;
-    }
-    .email{
-        font-size:3em;
-        text-align:center;
-        justify-content:center;
-        transition:2s;
-        margin: 0 auto;
-    }
-    .email:hover{
-        font-size:2em;
-    }
-    .linkedin{
-        font-size: 5em;
-        text-align:center;
-        justify-content:center;
-        text-decoration: none !important;
-        transition:2s;
-        margin: 0 auto;
-    }
+@media (max-width: 415px) {
+  .filler {
+    height: 1080px;
+    width: 100%;
+    clear: both;
+  }
+  .email {
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+    transition: 2s;
+    margin: 0 auto;
+  }
+  .email:hover {
+    font-size: 2em;
+  }
+  .linkedin {
+    font-size: 5em;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none !important;
+    transition: 2s;
+    margin: 0 auto;
+  }
 }

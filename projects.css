@@ -1,13 +1,13 @@
-.header-bg{
-    background-color:red !important;
+.header-bg {
+  background-color: red !important;
 }
-.project_content{
-    font-size:1em;
+.project_content {
+  font-size: 1em;
 }
-.project_name{
-    font-weight:bold;
+.project_name {
+  font-weight: bold;
 }
-.project_header{
-    font-weight:bold;
-    text-decoration:underline;
+.project_header {
+  font-weight: bold;
+  text-decoration: underline;
 }
